@@ -1,10 +1,19 @@
-<div class="container" id="card">
+import { Component, Input, OnInit } from '@angular/core';
+import { Quoter } from '../quoter';
 
-    <p id="quoteidOne"><strong> "{{quote.quote|titlecase }}"</strong></p>
-    <p id="quoteid">Published by {{quote.name|titlecase}}</p>
-    <p id="quoteid">Author:  {{quote.author|titlecase}}</p>
-    <p id="quoteid">Date:  {{quote.contemporaryDate|date:'short'}}</p>
-</div>
-<h6 id="published" class="card-subtitle mb-2 text-muted">
-    <span>Published {{quote.contemporaryDate|datePipe}} days ago.</span>
-</h6>
+@Component({
+  selector: 'app-properties',
+  templateUrl: './properties.component.html',
+  styleUrls: ['./properties.component.css']
+})
+export class PropertiesComponent implements OnInit {
+
+  @Input()
+  quote!: Quoter;
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
+
