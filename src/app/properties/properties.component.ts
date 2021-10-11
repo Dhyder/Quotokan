@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Quoter } from '../quoter';
 
 @Component({
   selector: 'app-properties',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PropertiesComponent implements OnInit {
 
+  @Input()
+  quote!: Quoter;
   constructor() { }
 
   ngOnInit(): void {
