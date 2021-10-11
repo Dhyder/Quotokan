@@ -1,1 +1,32 @@
-<p>form works!</p>
+
+
+<div class="container-fluid">
+    <h2 class="heading">Add Quote</h2>
+    <hr>
+    <form (ngSubmit)="publishQuote()" #form="ngForm">
+        <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" required class="form-control" id="name" [(ngModel)]="yourName" #name="ngModel" minlength="3">
+            <span class="helpblock" *ngIf="!name.valid && name.touched">Please enter valid name!</span>
+        </div>
+        <div class="form-group">
+            <label for="name">Quote Title</label>
+            <input type="text" name="title" required class="form-control" id="title" [(ngModel)]="quoteTitle" #title="ngModel" minlength="3">
+            <span class="helpblock" *ngIf="!title.valid && title.touched">Please enter valid title</span>
+        </div>
+        <div class="form-group">
+            <label for="name">Quote</label>
+            <input type="textarea" name="quote" required class="form-control" id="quote" [(ngModel)]="quote" minlength="3">
+            <!-- <span class="helpblock" *ngIf="!quote.valid && quote.touched">Please enter valid quote</span> -->
+        </div>
+        <div class="form-group">
+            <label for="name">Author</label>
+            <input type="text" name="author" required class="form-control" id="author" [(ngModel)]="quoteAuthor" #author="ngModel" minlength="3">
+            <span class="helpblock" *ngIf="!author.valid && author.touched">Please fill in the form field above</span>
+        </div>
+        <hr>
+        <div>
+            <button type="submit" class="btn btn-sm btn-success" [disabled]="!form.valid">Publish</button>
+        </div>
+    </form>
+</div>
