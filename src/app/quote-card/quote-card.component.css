@@ -5,68 +5,72 @@
     color: lavenderblush;
     font-family: Lato;
 } */
-#del{
-    float: right;
+#del {
+  float: right;
 }
 
-#up{
-    margin-right: 10px;
+#up {
+  margin-right: 10px;
 }
 
-#quotecontainer{
-    left: 20px;
+#quotecontainer {
+  left: 20px;
 }
 
-#heading{
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.658);
-    font-family: Rock salt;
-    color: yellow;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: xx-large;
+#heading {
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.658);
+  font-family: Rock salt;
+  color: yellow;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: xx-large;
 }
-#heading2{
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.658);
-    font-family: Rock salt;
-    font-size: larger;
-    color: purple;
+
+#heading2 {
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.658);
+  font-family: Rock salt;
+  font-size: larger;
+  color: purple;
 }
-#p1{
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.39);
-    font-family: lato;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
+
+#p1 {
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.39);
+  font-family: lato;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
 }
+
 /* .container-fluid{
     align-items: center;
     justify-content: center;
     margin-left: 100px;
 } */
 
-.container-card{
-    max-width: fit-content;
-    margin-left: 50px;
-    margin-top: 20px;
-    background: rgba(104, 7, 104, 0.342);
-    border-radius: 20px;
-    padding-top: 10px;
-    margin-bottom: 5%;
-    border-radius: 10px;
-    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.544);
+.container-card {
+  max-width: fit-content;
+  margin-left: 50px;
+  margin-top: 20px;
+  background: rgba(104, 7, 104, 0.342);
+  border-radius: 20px;
+  padding-top: 10px;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.544);
 }
 
-.container{
-    max-width: fit-content;
-    margin-left: 150px;
-    margin-top: 20px;
-    padding-top: 10px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+.container {
+  max-width: fit-content;
+  margin-left: 150px;
+  margin-top: 20px;
+  padding-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
+
 /* 
 .container-heading{
     max-width: fit-content;
@@ -78,12 +82,12 @@
 } */
 
 
-#liner{
-    color: purple;
-    opacity: 0.1;
-    border-radius: 30px;
+#liner {
+  color: purple;
+  opacity: 0.1;
+  border-radius: 30px;
 }
 
-#title{
-    color: white;
+#title {
+  color: white;
 }
