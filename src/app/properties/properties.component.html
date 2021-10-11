@@ -1,1 +1,10 @@
-<p>properties works!</p>
+<div class="container" id="card">
+
+    <p id="quoteidOne"><strong> "{{quote.quote|titlecase }}"</strong></p>
+    <p id="quoteid">Published by {{quote.name|titlecase}}</p>
+    <p id="quoteid">Author:  {{quote.author|titlecase}}</p>
+    <p id="quoteid">Date:  {{quote.contemporaryDate|date:'short'}}</p>
+</div>
+<h6 id="published" class="card-subtitle mb-2 text-muted">
+    <span>Published {{quote.contemporaryDate|datePipe}} days ago.</span>
+</h6>
