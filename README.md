@@ -52,4 +52,4 @@
 * For any queries, you can reach out at [desastrecaliente@gmail.com]
 ## License
 MIT License
-Copyright (c) 2021 Dhyder
+Copyright (c) 2021 Dhyder.
