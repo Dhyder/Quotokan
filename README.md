@@ -36,7 +36,7 @@
 ## How To Use This Application
 * Open terminal on desktop(Linux(Ctrl+Alt+T) or Windows(Win+X))
 *  Git clone: https://github.com/Dhyder/Quotokan/
-* cd Fortress_Pizza.
+* cd Quotokan.
 * Open folder with vscode/atom/sublime your choice.
 
 ## Technologies
