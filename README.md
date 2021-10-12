@@ -50,3 +50,6 @@
 * Refreshing the page resets generated quote.
 ## Author's Contact Information
 * For any queries, you can reach out at [desastrecaliente@gmail.com]
+## License
+MIT License
+Copyright (c) 2021 Dhyder
