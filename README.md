@@ -7,7 +7,7 @@
 * Quotokan is an application that enables users to publish their favorite quotes and get to have them upvoted or otherwise.It also displays quotes by other users with the option of deleting or not a quote as the user wishes.
 
 ## Link to webpage
-* https://github.com/Dhyder/Quotokan/
+* https://dhyder.github.io/Quotokan/
 
 ## Development server
 
